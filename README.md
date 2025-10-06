@@ -36,7 +36,7 @@ DeviceFileEvents
 | where DeviceName == "walnet"  
 | where InitiatingProcessAccountName == "walnet"  
 | where FileName contains "tor"  
-| where Timestamp >= datetime(2024-11-08T22:14:48.6065231Z)  
+| where Timestamp >= datetime(2025-10-05T01:18:04.9518825Z)  
 | order by Timestamp desc  
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ```
