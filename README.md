@@ -33,8 +33,8 @@ I searched the DeviceFileEvents table for any file containing the string "tor" a
 
 ```kql
 DeviceFileEvents  
-| where DeviceName == "threat-hunt-lab"  
-| where InitiatingProcessAccountName == "employee"  
+| where DeviceName == "walnet"  
+| where InitiatingProcessAccountName == "walnet"  
 | where FileName contains "tor"  
 | where Timestamp >= datetime(2024-11-08T22:14:48.6065231Z)  
 | order by Timestamp desc  
