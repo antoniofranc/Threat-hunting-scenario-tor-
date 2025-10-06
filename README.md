@@ -147,6 +147,6 @@ On October 5, 2025, user walnet on device walnet silently installed the Tor Brow
 
 ## Response Taken
 
-TOR usage was confirmed on the endpoint `threat-hunt-lab` by the user `employee`. The device was isolated, and the user's direct manager was notified.
+TOR usage was confirmed on the endpoint `walnet` by the user `walnet`. The device was isolated, and the user's direct manager was notified.
 
 ---
