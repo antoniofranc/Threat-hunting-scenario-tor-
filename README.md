@@ -71,12 +71,13 @@ I searched the DeviceProcessEvents table for any indication that user "walnet" a
 
 ```kql
 DeviceProcessEvents  
-| where DeviceName == "threat-hunt-lab"  
+| where DeviceName == "walnet"  
 | where FileName has_any ("tor.exe", "firefox.exe", "tor-browser.exe")  
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine  
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
+src="<img width="1431" height="522" alt="image" src="https://github.com/user-attachments/assets/8938aad7-e359-4f7e-90ff-024d14bb8247" />
+
 
 ---
 
