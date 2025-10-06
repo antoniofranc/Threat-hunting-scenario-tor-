@@ -47,7 +47,7 @@ DeviceFileEvents
 
 ### 2. Searched the `DeviceProcessEvents` Table
 
-Searched for any `ProcessCommandLine` that contained the string "tor-browser-windows-x86_64-portable-14.0.1.exe". Based on the logs returned, at `2024-11-08T22:16:47.4484567Z`, an employee on the "threat-hunt-lab" device ran the file `tor-browser-windows-x86_64-portable-14.0.1.exe` from their Downloads folder, using a command that triggered a silent installation.
+I searched the DeviceProcessEvents table for any ProcessCommandLine containing the string "tor-browser-windows-x86_64-portable-14.5.7.exe". Based on the returned logs, at October 5, 2025, 01:18:04 UTC (2025-10-05T01:18:04.9518825Z), an employee using the "walnet" device executed the Tor Browser portable installer (version 14.5.7) from their Downloads folder using a silent installation flag (/S) that bypasses all user prompts and installs the software automatically without visible interaction.
 
 **Query used to locate event:**
 
