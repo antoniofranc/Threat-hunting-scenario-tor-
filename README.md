@@ -65,7 +65,7 @@ DeviceProcessEvents
 
 ### 3. Searched the `DeviceProcessEvents` Table for TOR Browser Execution
 
-Searched for any indication that user "employee" actually opened the TOR browser. There was evidence that they did open it at `2024-11-08T22:17:21.6357935Z`. There were several other instances of `firefox.exe` (TOR) as well as `tor.exe` spawned afterwards.
+I searched the DeviceProcessEvents table for any indication that user "walnet" actually opened the Tor Browser. Evidence confirmed that the Tor Browser was launched on October 5, 2025, 01:19:20 UTC (2025-10-05T01:19:20.8474222Z). Multiple subsequent instances of firefox.exe (the Tor Browser executable) and tor.exe (the Tor network daemon) were spawned following the initial launch, indicating active and sustained use of the Tor Browser.
 
 **Query used to locate events:**
 
