@@ -140,7 +140,8 @@ DeviceNetworkEvents
 
 ## Summary
 
-The user "employee" on the "threat-hunt-lab" device initiated and completed the installation of the TOR browser. They proceeded to launch the browser, establish connections within the TOR network, and created various files related to TOR on their desktop, including a file named `tor-shopping-list.txt`. This sequence of activities indicates that the user actively installed, configured, and used the TOR browser, likely for anonymous browsing purposes, with possible documentation in the form of the "shopping list" file.
+On October 5, 2025, user walnet on device walnet silently installed the Tor Browser (v14.5.7) at 01:18 UTC using the /S flag. Within a minute, `firefox.exe` and  `tor.exe` processes were launched, confirming active Tor usage. At 01:19:28 UTC, the device connected to a Tor relay node (80.67.167.86:9001) and other Tor/HTTPS endpoints, indicating anonymized browsing or data exchange. About 12 minutes later, a file named `tor-shopping-list.txt` appeared on the desktop. No authorized business reason was identified for Tor activity, indicating a potential policy violation and security risk.
+
 
 ---
 
